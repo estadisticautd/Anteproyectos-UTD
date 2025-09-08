@@ -7,9 +7,10 @@ library(digest)
 # directory where responses get stored ####
 # getwd()
 
-responsesDir <- file.path("https://github.com/estadisticautd/Anteproyectos-UTD/tree/main/data")
+# quiero que los resultados se guarden en la carpeta github - pero esto no es
+# responsesDir <- file.path("https://github.com/estadisticautd/Anteproyectos-UTD/tree/main/data")
 
-#responsesDir <- file.path("C:/Users/USUARIO/OneDrive/Documentos/Shiny apps/Anteproyectos Share/data")
+responsesDir <- file.path("C:/Users/USUARIO/OneDrive/Documentos/Shiny apps/Anteproyectos Share/data")
 
 
 
@@ -174,4 +175,5 @@ shinyApp(
     
   }
 )
+
 
