@@ -6,7 +6,10 @@ library(digest)
 
 # directory where responses get stored ####
 # getwd()
-responsesDir <- file.path("C:/Users/USUARIO/OneDrive/Documentos/Shiny apps/Anteproyectos Share/data")
+
+responsesDir <- file.path("https://github.com/estadisticautd/Anteproyectos-UTD/tree/main/data")
+
+#responsesDir <- file.path("C:/Users/USUARIO/OneDrive/Documentos/Shiny apps/Anteproyectos Share/data")
 
 
 
@@ -171,3 +174,4 @@ shinyApp(
     
   }
 )
+
